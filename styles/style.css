@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color: lightgoldenrodyellow
+}
+
+/* styling voor de header */
+
+nav ul {
+    background-color: olive;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: 0%;
+    padding-bottom: 0%;
+}
+
+.button, nav a {
+    background-color: orange;
+    border-radius: 20em;
+    border: 1px solid darkred;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover,
+nav a:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 20em;
+    border: 3px solid rgb(139, 58, 0);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*styling voor de tekst*/
+
+/* .container {
+    padding-left: 10%;
+    padding-right: 50%;
+    padding-bottom: 5%;
+} */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 2em;
+    padding-top: 1%;
+    margin: 5%;
+}
+
+h2 {
+    color: orange;
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    -webkit-text-stroke-color: rgb(168, 111, 4);
+    -webkit-text-stroke-width: 1px;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 40%;
+    margin-bottom: 2%;
+}
+
+li {
+    padding-bottom: 2%;
+}
+
+ol, ul {
+    margin-left: 5%;
+    padding-bottom: 2%;
+    margin-right: 40%;
+}
+
+img {
+    float: right;
+    margin-right: 20%;
+    height: 30vh;
+    width: 15vw;
+}
+
+.imagecenter {
+    display: flex;
+    justify-content: center;
+    padding-right: 30%;
+}
+
+/*styling voor de footer*/
+
+footer {
+    color: lightgoldenrodyellow;
+    background-color: olive;
+    display: flex;
+    justify-content: center;
+    padding-left: 25%;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+}
+
